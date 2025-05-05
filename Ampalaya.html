@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicinal Plants - Ampalaya</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: cursive;
+        }
+        body {
+            background-image: url('https://img.freepik.com/premium-photo/green-herbal-background-with-fresh-basil-thyme-mint-rosemary-dill-healthy-plantbased_817921-2473.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: rgb(19, 17, 17);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 20px 50px;
+            background: rgba(15, 13, 19, 0.9);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .header .logo {
+            color: white;
+            font-size: 26px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: bold;
+            margin-left: 25px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .plants-container {
+            max-width: 1000px;
+            margin: 100px auto;
+            padding: 20px;
+        }
+        .plant-box {
+            max-width: 1000px;
+            margin: 0 auto 30px;
+            background: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            min-height: 300px;
+        }
+        .plant-image {
+            width: 450px;
+            height: 100%;
+            max-height: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+        .plant-content h2 {
+            color: rgb(9, 10, 10);
+            font-size: 24px;
+        }
+        .read-more {
+            background: aqua;
+            color: black;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .read-more:hover {
+            background: white;
+        }
+    </style>
+</head>
+<body> 
+    <header class="header">
+        <a href="medicinal plants.html" class="logo">Medicinal Plants</a>
+    </header>
+
+    <div class="plants-container">
+        <h1 style="text-align: center; color: rgb(5, 5, 5);">Read More</h1>
+
+        <div class="plant-box">
+            <img src="https://images.saymedia-content.com/.image/t_share/MTg4MTgzNTExNTc0NzgzNzg2/ginising-ampalaya-filipino-sauted-bitter-melon.jpg" alt="Ampalaya" class="plant-image">
+            <div class="plant-content">
+                <h2>Ampalaya (Bitter Melon)</h2>
+                <p>Ampalaya, also known as Bitter Melon (Momordica charantia), is a well-known medicinal plant used widely in traditional medicine. It is especially known for its bitter taste and numerous health benefits.</p>
+        
+                <h3>Medicinal Uses:</h3>
+                <ul>
+                    <li><strong>Blood Sugar Regulation:</strong> Ampalaya is known to help in controlling blood sugar levels, which makes it beneficial for people with diabetes.</li>
+                    <li><strong>Digestive Health:</strong> The plant helps with digestion and is often used to treat gastrointestinal issues such as indigestion, bloating, and constipation.</li>
+                    <li><strong>Anti-inflammatory:</strong> Ampalaya has compounds that may reduce inflammation and help in treating inflammatory diseases.</li>
+                    <li><strong>Detoxification:</strong> It is believed to aid in detoxifying the body by promoting the elimination of toxins through sweat and urine.</li>
+                    <li><strong>Weight Loss:</strong> Some studies suggest that Ampalaya may help with weight loss due to its ability to regulate fat metabolism and increase energy expenditure.</li>
+                    <li><strong>Skin Care:</strong> Ampalaya's juice is often applied to the skin to treat acne, eczema, and other skin conditions due to its antibacterial properties.</li>
+                    <li><strong>Immune Boost:</strong> Ampalaya contains vitamins and minerals that help strengthen the immune system and fight infections.</li>
+                    <li><strong>Liver Health:</strong> It is also used to improve liver health and treat liver-related conditions.</li>
+                </ul>
+        
+                <p>Ampalaya has been used for centuries in various cultures for its medicinal properties, and it continues to be a popular natural remedy today. However, it's always important to consult with a healthcare provider before using it for medical treatments.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

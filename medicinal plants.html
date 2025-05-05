@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herbal Plants</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: cursive;
+    }
+
+    body {
+      background-image: url('https://img.freepik.com/premium-photo/green-herbal-background-with-fresh-basil-thyme-mint-rosemary-dill-healthy-plantbased_817921-2473.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #333;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 20px 50px;
+      background: rgba(15, 13, 19, 0.9);
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+
+    .header .logo {
+      color: rgb(84, 240, 76);
+      font-size: 26px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .navbar a {
+      color: rgb(95, 248, 105);
+      text-decoration: none;
+      font-size: 22px;
+      font-weight: bold;
+      margin-left: 25px;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .plants-container {
+      max-width: 1000px;
+      margin: 120px auto;
+      padding: 20px;
+    }
+
+    .plants-container h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #fff;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .plant-box {
+      display: flex;
+      flex-direction: row;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      margin-bottom: 25px;
+      border-radius: 15px;
+      gap: 20px;
+      align-items: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .plant-box:hover {
+      transform: scale(1.02);
+    }
+
+    .plant-image {
+      width: 250px;
+      height: 180px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .plant-content h2 {
+      color: #1b5e20;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .plant-content p {
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .read-more {
+      background: #4caf50;
+      color: white;
+      padding: 8px 14px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .read-more:hover {
+      background: #388e3c;
+    }
+
+    @media (max-width: 768px) {
+      .plant-box {
+        flex-direction: column;
+        text-align: center;
+      }
+      .plant-image {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo">HerbalHaven</a>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="plants-container">
+    <h1>List of Herbal Plants</h1>
+
+    <div class="plant-box">
+      <img src="https://www.thespruce.com/thmb/3efOEKbsyMR2kA3oDFguPLZTODc=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-696251125-75372e5d9dd0456eb155b82b4d71bc90.jpg" class="plant-image" alt="Aloe Vera">
+      <div class="plant-content">
+        <h2>Aloe Vera</h2>
+        <p>Used for burns, skin conditions, and digestion.</p>
+        <a href="aloe-vera.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="plant-box">
+      <img src="https://i.pinimg.com/originals/4e/39/59/4e3959a3bd1ed065862258bf6d893a80.png" class="plant-image" alt="Turmeric">
+      <div class="plant-content">
+        <h2>Turmeric</h2>
+        <p>Known for its anti-inflammatory and antioxidant properties.</p>
+        <a href="turmeric.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="plant-box">
+      <img src="https://doubledeckerfarm.com/wp-content/uploads/2022/09/Garlic-beauty-shot-scaled.jpg" alt="Garlic" class="plant-image" />
+      <div class="plant-content">
+        <h2>Garlic</h2>
+        <p>Cooking spice and traditional remedy. Helps with immunity and cholesterol.</p>
+        <a href="garlic.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="plant-box">
+      <img src="https://www.passionateaboutfish.co.uk/paf/big_pic/img/product/veg-herbs/ginger1.jpg" class="plant-image" alt="Ginger">
+      <div class="plant-content">
+        <h2>Ginger</h2>
+        <p>Used for nausea relief, digestion, inflammation, and colds.</p>
+        <a href="ginger.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="plant-box">
+        <img src="bayabas.jpeg" class="plant-image" alt="Bayabas (Guava)">
+        <div class="plant-content">
+          <h2>Bayabas (Guava)</h2>
+          <p>Used for wound disinfection, diarrhea, and mouth infections.</p>
+          <a href="bayabas.html" class="read-more">Read More</a>
+        </div>
+      </div>      
+
+    <div class="plant-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Plantago_major_planta.jpg" class="plant-image" alt="Plantain">
+      <div class="plant-content">
+        <h2>Plantain</h2>
+        <p>Used for wound healing, inflammation, and soothing insect bites.</p>
+        <a href="plantain.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="plant-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Bitter_Gourd.jpg" class="plant-image" alt="Ampalaya">
+      <div class="plant-content">
+        <h2>Ampalaya (Bitter Melon)</h2>
+        <p>Known for managing blood sugar and improving digestion.</p>
+        <a href="ampalaya.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="plant-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Ocimum_tenuiflorum2.jpg" class="plant-image" alt="Holy Basil">
+      <div class="plant-content">
+        <h2>Holy Basil (Tulsi)</h2>
+        <p>Promotes stress relief, immunity, and respiratory health.</p>
+        <a href="holy-basil.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="plant-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Satureja_douglasii.jpg/800px-Satureja_douglasii.jpg" class="plant-image" alt="Yerba Buena">
+      <div class="plant-content">
+        <h2>Yerba Buena</h2>
+        <p>Used to relieve body aches, nausea, and headaches.</p>
+        <a href="yerba-buena.html" class="read-more">Read More</a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

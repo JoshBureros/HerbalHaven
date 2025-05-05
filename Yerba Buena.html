@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yerba Buena - HerbalHaven</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box; 
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-image: url('https://img.freepik.com/premium-photo/green-herbal-background-with-fresh-basil-thyme-mint-rosemary-dill-healthy-plantbased_817921-2473.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: rgb(4, 4, 4);
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 20px 50px;
+      background: rgba(14, 14, 15, 0.9);
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+
+    .header .logo {
+      color: rgb(12, 243, 9);
+      font-size: 26px;
+      font-weight: bold;
+      font-family: cursive;
+      text-decoration: none;
+    }
+
+    .navbar a {
+      color: rgb(255, 255, 255);   
+      text-decoration: none;
+      font-size: 22px;
+      font-weight: bold;
+      margin-left: 25px;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .plants-container {
+      max-width: 1000px;
+      margin: 120px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    .plant-box {
+      background: rgba(243, 236, 236, 0.95);
+      padding: 20px;
+      border-radius: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .plant-image {
+      width: 450px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover; 
+      flex-shrink: 0;
+    }
+
+    .plant-content {
+      flex: 1;
+    }
+
+    .plant-content h2 {
+      color: #1b5e20;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .plant-content p, .plant-content ul, .plant-content li {
+      font-size: 16px;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .plant-content ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .plant-box {
+        flex-direction: column;
+        text-align: center;
+      }
+      .plant-image {
+        width: 100%;
+      }
+      .plant-content {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo">HerbalHaven</a>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="plants-container">
+    <h1>Yerba Buena</h1>
+    <div class="plant-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Clinopodium_douglasii_3.jpg/640px-Clinopodium_douglasii_3.jpg" alt="Yerba Buena" class="plant-image">
+      <div class="plant-content">
+        <h2>Yerba Buena (Clinopodium douglasii)</h2>
+        <p>Yerba Buena is a perennial herb belonging to the mint family, widely known in the Philippines for its medicinal properties. It is commonly used in traditional medicine for its soothing, analgesic, and aromatic qualities.</p>
+        
+        <h3>Medicinal Uses:</h3>
+        <ul>
+          <li><strong>Pain Relief:</strong> Leaves can be pounded and used as a poultice for headaches, toothaches, and body aches.</li>
+          <li><strong>Stomach Ache:</strong> Tea made from the leaves can help soothe abdominal pain, indigestion, and gas.</li>
+          <li><strong>Cold and Cough:</strong> The minty aroma helps clear nasal passages and ease sore throats when used as tea or steam inhalation.</li>
+          <li><strong>Anti-inflammatory:</strong> Reduces swelling and muscle pain.</li>
+          <li><strong>Antibacterial:</strong> Useful for treating minor wounds due to its natural antibacterial effect.</li>
+          <li><strong>Relaxant:</strong> Yerba Buena tea may reduce stress and promote relaxation.</li>
+        </ul>
+
+        <p>This plant is recognized by the Philippine Department of Health as an approved medicinal herb. For serious conditions, it's still best to consult a medical professional.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garlic - HerbalHaven</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <style>
+    body {
+      background-image: url('https://img.freepik.com/premium-photo/green-herbal-background-with-fresh-basil-thyme-mint-rosemary-dill-healthy-plantbased_817921-2473.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #333;
+      font-family: cursive;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 20px 50px;
+      background: rgba(15, 13, 19, 0.9);
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+
+    .header .logo {
+      color: rgb(84, 240, 76);
+      font-size: 26px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .navbar a {
+      color: rgb(95, 248, 105);
+      text-decoration: none;
+      font-size: 22px;
+      font-weight: bold;
+      margin-left: 25px;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      max-width: 900px;
+      margin: 130px auto 50px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .content h1 {
+      color: #1b5e20;
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .content img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto 20px;
+      border-radius: 10px;
+    }
+
+    .content p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 20px;
+      background: #4caf50;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .back-link:hover {
+      background: #388e3c;
+    }
+
+    @media (max-width: 768px) {
+      .header {
+        flex-direction: column;
+        padding: 15px;
+      }
+      .navbar a {
+        margin: 10px 0 0;
+        display: inline-block;
+      }
+      .content {
+        margin: 130px 15px 50px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo">HerbalHaven</a>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h1>Garlic</h1>
+    <img src="https://doubledeckerfarm.com/wp-content/uploads/2022/09/Garlic-beauty-shot-scaled.jpg" alt="Garlic">
+
+    <p><strong>Scientific Name:</strong> Allium sativum</p>
+
+    <p>Garlic is one of the most widely used herbal remedies and cooking ingredients around the world. It is known for its distinctive taste and numerous health benefits.</p>
+
+    <p><strong>Medicinal Benefits:</strong></p>
+    <ul>
+      <li>Boosts the immune system</li>
+      <li>Reduces blood pressure</li>
+      <li>Lowers cholesterol levels</li>
+      <li>Fights infections and colds</li>
+      <li>Has anti-inflammatory and antioxidant properties</li>
+    </ul>
+
+    <p>Garlic can be consumed raw, cooked, or as a supplement. It has been used in traditional medicine for centuries and is especially popular in heart and immune system care.</p>
+
+    <a href="index.html" class="back-link">← Back to Plant List</a>
+  </main>
+
+</body>
+</html>
