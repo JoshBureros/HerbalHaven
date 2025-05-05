@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicinal Plants - Echinacea</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-image: url('https://img.freepik.com/premium-photo/green-herbal-background-with-fresh-basil-thyme-mint-rosemary-dill-healthy-plantbased_817921-2473.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: rgb(4, 4, 4);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 20px 50px;
+            background: rgba(14, 14, 15, 0.9);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .header .logo {
+            color: rgb(12, 243, 9);
+            font-size: 26px;
+            font-weight: bold;
+            font-family: cursive;
+            text-decoration: none;
+        }
+        .navbar a {
+            color: rgb(0, 0, 0);   
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: bold;
+            margin-left: 25px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .plants-container {
+            max-width: 1000px;
+            margin: 100px auto;
+            padding: 20px;
+        }
+        .plant-box {
+            max-width: 1000px;
+            margin: 0 auto 30px;
+            background: rgba(243, 236, 236, 0.836);
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            min-height: 300px; 
+        }
+
+        .plant-image {
+            width: 450px;
+            height: 100%;
+            max-height: 100%;
+            border-radius: 10px;
+            object-fit: cover; 
+            flex-shrink: 0;
+        }
+        .plant-content h2 {
+            color: rgb(9, 9, 9);
+            font-size: 24px;
+        }
+        .read-more {
+            background: rgb(11, 12, 12);
+            color: black;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .read-more:hover {
+            background: white;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <header class="header">
+        <a href="medicinal plants.html" class="logo">Medicinal plants</a>
+    </header>
+
+    <div class="plants-container">
+        <h1 style="text-align: center; color: rgb(249, 255, 255);">Echinacea</h1>
+
+        <div class="plant-box">
+            <img src="Echinacea.jpeg" alt="Echinacea" class="plant-image">
+            <div class="plant-content">
+                <h2>Echinacea (Echinacea purpurea)</h2>
+                <p>Echinacea, commonly known as coneflower, is a flowering plant native to North America and widely known for its use in herbal remedies, especially to boost the immune system and fight infections.</p>
+                
+                <h3>Medicinal Uses:</h3>
+                <ul>
+                    <li><strong>Immune Support:</strong> Echinacea is best known for enhancing the immune system and is often taken to help prevent or reduce the duration of colds and flu.</li>
+                    <li><strong>Anti-inflammatory:</strong> It contains compounds that help reduce inflammation and can assist with conditions such as sore throats or minor skin irritations.</li>
+                    <li><strong>Wound Healing:</strong> Traditionally, Echinacea was applied topically to wounds, burns, and insect bites to promote healing and prevent infection.</li>
+                    <li><strong>Antioxidant Properties:</strong> Echinacea has antioxidant effects that help protect cells from oxidative damage caused by free radicals.</li>
+                    <li><strong>Respiratory Health:</strong> It is often used in teas or supplements to ease respiratory tract infections and support overall lung function.</li>
+                    <li><strong>Antiviral Effects:</strong> Some studies suggest echinacea may help reduce viral infections by stimulating white blood cell production.</li>
+                </ul>
+                
+                <p>While echinacea is widely considered safe for short-term use, it may cause allergic reactions in some individuals, especially those allergic to ragweed or daisies. Consultation with a healthcare provider is recommended before using echinacea supplements regularly.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

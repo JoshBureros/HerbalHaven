@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicinal Plants - Tawa-Tawa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-image: url('https://img.freepik.com/premium-photo/green-herbal-background-with-fresh-basil-thyme-mint-rosemary-dill-healthy-plantbased_817921-2473.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: rgb(4, 4, 4);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 20px 50px;
+            background: rgba(14, 14, 15, 0.9);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .header .logo {
+            color: rgb(12, 243, 9);
+            font-size: 26px;
+            font-weight: bold;
+            font-family: cursive;
+            text-decoration: none;
+        }
+        .navbar a {
+            color: rgb(0, 0, 0);   
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: bold;
+            margin-left: 25px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .plants-container {
+            max-width: 1000px;
+            margin: 100px auto;
+            padding: 20px;
+        }
+        .plant-box {
+            max-width: 1000px;
+            margin: 0 auto 30px;
+            background: rgba(243, 236, 236, 0.836);
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            min-height: 300px; 
+        }
+
+        .plant-image {
+            width: 450px;
+            height: 100%;
+            max-height: 100%;
+            border-radius: 10px;
+            object-fit: cover; 
+            flex-shrink: 0;
+        }
+        .plant-content h2 {
+            color: rgb(9, 9, 9);
+            font-size: 24px;
+        }
+        .read-more {
+            background: rgb(11, 12, 12);
+            color: black;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .read-more:hover {
+            background: white;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <header class="header">
+        <a href="medicinal plants.html" class="logo">Medicinal plants</a>
+    </header>
+
+    <div class="plants-container">
+        <h1 style="text-align: center; color: rgb(249, 255, 255);">Tawa-Tawa</h1>
+
+        <div class="plant-box">
+            <img src="tawa-tawa.jpeg" alt="Tawa-Tawa" class="plant-image">
+            <div class="plant-content">
+                <h2>Tawa-Tawa (Euphorbia hirta)</h2>
+                <p>Tawa-Tawa, or *Euphorbia hirta*, is a traditional medicinal herb commonly found in the Philippines. It is well known for its role in helping treat dengue fever and other ailments related to bleeding and the immune system.</p>
+                
+                <h3>Medicinal Uses:</h3>
+                <ul>
+                    <li><strong>Dengue Support:</strong> Tawa-Tawa is popularly used as a herbal remedy to help increase platelet count in dengue patients, although scientific evidence is still being studied.</li>
+                    <li><strong>Anti-inflammatory:</strong> It has anti-inflammatory properties that can help ease symptoms of asthma, bronchitis, and other respiratory infections.</li>
+                    <li><strong>Antibacterial and Antiviral:</strong> Extracts of the plant have shown effects against bacteria and some viruses, aiding in wound care and infections.</li>
+                    <li><strong>Diuretic:</strong> It helps in flushing out toxins through urination and supports kidney function.</li>
+                    <li><strong>Anti-diarrheal:</strong> Traditionally, it is used to treat diarrhea and intestinal worms in rural communities.</li>
+                    <li><strong>Antioxidant:</strong> The plant is rich in antioxidants that help protect cells from damage.</li>
+                </ul>
+                
+                <p>While Tawa-Tawa is widely used in traditional medicine, it should be taken with caution. Always consult a healthcare provider before using it as a treatment, especially for serious conditions like dengue.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

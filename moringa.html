@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicinal Plants - Moringa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-image: url('https://img.freepik.com/premium-photo/green-herbal-background-with-fresh-basil-thyme-mint-rosemary-dill-healthy-plantbased_817921-2473.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: rgb(4, 4, 4);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 20px 50px;
+            background: rgba(14, 14, 15, 0.9);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .header .logo {
+            color: rgb(12, 243, 9);
+            font-size: 26px;
+            font-weight: bold;
+            font-family: cursive;
+            text-decoration: none;
+        }
+        .navbar a {
+            color: rgb(0, 0, 0);   
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: bold;
+            margin-left: 25px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .plants-container {
+            max-width: 1000px;
+            margin: 100px auto;
+            padding: 20px;
+        }
+        .plant-box {
+            max-width: 1000px;
+            margin: 0 auto 30px;
+            background: rgba(243, 236, 236, 0.836);
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            min-height: 300px; 
+        }
+
+        .plant-image {
+            width: 450px;
+            height: 100%;
+            max-height: 100%;
+            border-radius: 10px;
+            object-fit: cover; 
+            flex-shrink: 0;
+        }
+        .plant-content h2 {
+            color: rgb(9, 9, 9);
+            font-size: 24px;
+        }
+        .read-more {
+            background: rgb(11, 12, 12);
+            color: black;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .read-more:hover {
+            background: white;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <header class="header">
+        <a href="medicinal plants.html" class="logo">Medicinal plants</a>
+    </header>
+
+    <div class="plants-container">
+        <h1 style="text-align: center; color: rgb(249, 255, 255);">Moringa</h1>
+
+        <div class="plant-box">
+            <img src="moringa.jpeg" alt="Moringa" class="plant-image">
+            <div class="plant-content">
+                <h2>Moringa (Moringa oleifera)</h2>
+                <p>Moringa, often referred to as the "Miracle Tree," is a fast-growing, drought-resistant tree native to the Indian subcontinent. Nearly every part of the plant is edible and has long been used in traditional herbal medicine.</p>
+                
+                <h3>Medicinal Uses:</h3>
+                <ul>
+                    <li><strong>Rich in Nutrients:</strong> Moringa leaves are packed with vitamins A, C, and E, calcium, potassium, and protein, making them highly nutritious and beneficial for combating malnutrition.</li>
+                    <li><strong>Anti-inflammatory:</strong> Compounds in moringa have been shown to reduce inflammation, which can help treat conditions like arthritis and asthma.</li>
+                    <li><strong>Antioxidant Power:</strong> Moringa contains powerful antioxidants like quercetin and chlorogenic acid, which protect against cell damage and oxidative stress.</li>
+                    <li><strong>Blood Sugar Regulation:</strong> Studies suggest that moringa may help lower blood sugar levels, beneficial for people with diabetes.</li>
+                    <li><strong>Cholesterol Management:</strong> Moringa has been found to reduce cholesterol levels, which can support heart health.</li>
+                    <li><strong>Wound Healing:</strong> Moringa leaf and seed extracts can accelerate wound healing and reduce scarring when applied topically.</li>
+                </ul>
+                
+                <p>Moringa is a highly beneficial medicinal plant, but it should be used appropriately. While it is generally safe, excessive use may cause digestive discomfort. Always consult a healthcare professional for proper dosage and guidance.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
